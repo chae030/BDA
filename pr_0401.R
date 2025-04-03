@@ -142,8 +142,8 @@ sum(iris[,5] == "setosa")
 
 a = data.frame(
   site = 1:10,
-  x = c(2, 5, 5, 5, 1, 5, 7, 4, 5, 6),
-  y = c(0, 4, 1, 2, 8, 9, 5, 2, 4, 1)
+  x = c(1, 2, 3, 4, 5, 5, 5, 5, 6, 8),
+  y = c(2, 0, 2, 1, 1, 4, 5, 8, 4, 9)
 )
 print(a)
 
@@ -156,7 +156,7 @@ b = data.frame(
 print(b)
 
 d = function(x, y, z, w) {
-  result = ((x-z)^2 + (y-w)^2)^(1/2)
+  result = sqrt((x-z)^2 + (y-w)^2)
   return(result)
 }
 
