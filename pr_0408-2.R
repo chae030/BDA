@@ -18,6 +18,7 @@ fd(fx, x=2, h=0.00000000001)
 
 fxx = expression(-exp(x^2) + 6*x^(1/3) -log(6), 'x')
 d = c(D(fxx, 'x'))
+d
 
 fxxx = function(x) {
   result = 6 * (x^((1/3) - 1) * (1/3)) - exp(x^2) * (2 * x)

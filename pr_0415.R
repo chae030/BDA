@@ -5,6 +5,7 @@ fx = function(x) {
 
 curve(fx, -2, 2, col = 'blue')
 integrate(fx, -2, 2)
+
 x1 = -2
 x2 = 2
 y1 = 0
