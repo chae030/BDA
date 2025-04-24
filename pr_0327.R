@@ -59,9 +59,15 @@ mat1 = matrix(c(1, 2, 3, 4, 5, 6), ncol = 2)
 mat2 = matrix(0, nrow=3, ncol=3)
 zeros = matrix(0, nrow = 100, ncol = 1)
 
+mat
+mat1
+mat2
+zeros
+
 for (i in 1:100) {
   zeros[i, 1] = i^2
 }
+zeros
 plot(zeros, type="o")
 
 삼국인물
